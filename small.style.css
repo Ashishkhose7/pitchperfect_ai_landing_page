@@ -22,7 +22,7 @@
     .main-title1 {
         color: #fff;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 18px;
         font: 900 20px / 24px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
         word-spacing: 0px;
     }
@@ -31,7 +31,7 @@
     }
     .subtitle1 {
         font: 400 12px Gilroy-Medium, sans-serif;
-            margin-top: 6px;
+        margin-top: 10px;
     }
     .subtitle {
         margin-top: 37px;
@@ -41,8 +41,8 @@
         height: 100%;
     }
     .image-container {
-        margin-top: -5px;
-        min-height: 240px;
+        margin-top: 5px;
+        min-height: 230px;
         padding: 0px 0px;
     }
     .play-svg {
@@ -128,7 +128,7 @@
     }
     .headline1 {
         font: 26px / 37px Gilroy-SemiBold, -apple-system, Roboto, Helvetica, sans-serif;
-        width: 450px;
+        width: 100%;
         font-weight: 600;
         text-align: center;
         margin: auto;
@@ -169,6 +169,86 @@
         width: 100%;
         object-fit: cover;
         object-position: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero-background {
+        height: 85%;
+    }
+    .subtitle1 {
+        font: 400 12px Gilroy-Medium, sans-serif;
+        margin-top: 0px;
+    }
+    .image-container {
+        margin-top: -5px;
+        min-height: 200px;
+        padding: 0px 0px;
+    }
+    .div {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        margin: auto;
+        padding: 0 0px;
+    }
+    .div-2 {
+        font: 600 14px / 25px Montserrat, sans-serif;
+        padding: 1px;
+    }
+    .div-3 {
+        font: 100 14px / 20px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+        margin-top: 17px;
+    }
+    .div-3-span{
+        line-height: 16px;
+
+    }
+    .play-svg {
+        top: 28%;
+    }
+    .div-4 {
+        margin-top: 20px;
+        gap: 0px;
+        padding: 9px 14px;
+    }
+    .div-6 {
+        font: 900 16px / 165% Montserrat, sans-serif;
+    }
+    .img {
+        aspect-ratio: 1.14;
+        object-fit: auto;
+        object-position: center;
+        width: 40px;
+    }
+    .container {
+        /* padding-left: 40px; */
+        /* padding-right: 40px; */
+        max-width: 90%;
+    }
+    .div-7 {
+        font: 600 12px Gilroy-Bold, sans-serif;
+        line-height: 18.09px;
+    }
+    .div-4 {
+        margin-top: 20px;
+        gap: 5px;
+        padding: 16px 8px;
+    }
+    .review-column-2 {
+        margin-left: 0px;
+    }
+    .main-heading {
+        font: 700 20px / 28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .highlight-text-div {
+        font: 400 20px / 28px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .agency-container {
+        padding: 53px 8px;
     }
 }
 
