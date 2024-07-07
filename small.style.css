@@ -250,6 +250,43 @@
     .agency-container {
         padding: 53px 8px;
     }
+    .headline1 {
+        font: 26px / 16px Gilroy-SemiBold, -apple-system, Roboto, Helvetica, sans-serif;
+        width: 100%;
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+    }
 }
-
+@media screen and (max-width: 402px) {
+    .highlight-bar {
+        padding: 0px 4px;
+        margin-top: 15px;
+        font-size: 12px;
+        height: 24px;
+    }
+    .main-title1 {
+        color: #fff;
+        text-align: center;
+        margin-top: 16px;
+        font: 900 28px / 30px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+        word-spacing: 0px;
+    }
+    .main-title {
+        font: 900 28px / 30px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    .hero-content {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        /* width: 774px; */
+        max-width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtitle1 {
+        font: 400 12px Gilroy-Medium, sans-serif;
+        margin-top: 10px;
+    }
+}
     
