@@ -329,4 +329,17 @@
         font: 900 25px / 30px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
     }
 } 
+@media screen and (max-width: 372px){
+    .div-2 {
+        font: 600 12px / 25px Montserrat, sans-serif;
+        padding: 1px;
+    }
+    .div-6 {
+        font: 900 12px / 162% Montserrat, sans-serif;
+    }
+    .div-7 {
+        font: 600 8px Gilroy-Bold, sans-serif;
+        line-height: 16.09px;
+    }
+}
     
