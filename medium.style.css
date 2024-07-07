@@ -77,6 +77,10 @@
   .main-heading {
     font: 700 26px / 40px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
 }
+.text-light{
+  font: 700 26px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+
+}
 .highlight-text-div {
   font: 400 26px / 40px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
 }

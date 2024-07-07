@@ -611,6 +611,7 @@
 .main-heading {
   color: #fff;
   font: 700 45px/55px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -621,12 +622,12 @@
   }
 }
 .text-light{
-  font: 700 20px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+  font: 700 45px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
 
 }
 .highlight-text-div{
   font: 700 45px/55px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
-
+  text-align: center;
 }
 
 .highlight-text {

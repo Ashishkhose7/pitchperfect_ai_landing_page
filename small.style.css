@@ -170,6 +170,10 @@
         object-fit: cover;
         object-position: center;
     }
+    .text-light{
+        font: 700 20px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+      
+      }
 }
 
 @media screen and (max-width: 480px){
@@ -213,7 +217,7 @@
         padding: 9px 14px;
     }
     .div-6 {
-        font: 900 16px / 165% Montserrat, sans-serif;
+        font: 900 14px / 165% Montserrat, sans-serif;
     }
     .img {
         aspect-ratio: 1.14;
@@ -235,6 +239,10 @@
         gap: 5px;
         padding: 13px;
     }
+    .text-light{
+        font: 700 20px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+      
+      }
     .review-column-2 {
         margin-left: 0px;
     }
@@ -298,7 +306,7 @@
         margin-top: 17px;
     }
     .div-6 {
-        font: 900 13px / 162% Montserrat, sans-serif;
+        font: 900 12px / 162% Montserrat, sans-serif;
     }
     .div-7 {
         font: 600 10px Gilroy-Bold, sans-serif;
