@@ -288,5 +288,45 @@
         font: 400 12px Gilroy-Medium, sans-serif;
         margin-top: 10px;
     }
+    .div-2 {
+        font: 600 13px / 25px Montserrat, sans-serif;
+        padding: 1px;
+    }
+    .div-3 {
+        font: 100 12px / 13px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+        margin-top: 17px;
+    }
+    .div-6 {
+        font: 900 13px / 162% Montserrat, sans-serif;
+    }
+    .div-7 {
+        font: 600 10px Gilroy-Bold, sans-serif;
+        line-height: 16.09px;
+    }
+    .img {
+        aspect-ratio: 1.14;
+        object-fit: auto;
+        object-position: center;
+        width: 32px;
+    }
+    .inv-div-4 {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .div-8 {
+        font: 700 12px / 18px Montserrat, sans-serif;
+    }
 }
+@media screen and (max-width: 390px){
+    .main-title1 {
+        color: #fff;
+        text-align: center;
+        margin-top: 16px;
+        font: 900 25px / 30px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+        word-spacing: 0px;
+    }
+    .main-title {
+        font: 900 25px / 30px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+} 
     
