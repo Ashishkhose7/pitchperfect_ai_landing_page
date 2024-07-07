@@ -1,0 +1,175 @@
+@media screen and (max-width: 578px) {
+    .logo-text {
+        aspect-ratio: -9.91;
+        object-fit: auto;
+        object-position: center;
+        width: 150px;
+        margin: 0;
+    }
+    .logo-container {
+        gap: 10px;
+    }
+    .logo-icon {
+        width: 24px;
+    }
+    
+    .highlight-bar {
+        padding: 0px 4px;
+        margin-top: 15px;
+        font-size: 14px;
+        height: 24px;
+    }
+    .main-title1 {
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        font: 900 20px / 24px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+        word-spacing: 0px;
+    }
+    .main-title {
+        font: 900 20px / 30px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    .subtitle1 {
+        font: 400 12px Gilroy-Medium, sans-serif;
+            margin-top: 6px;
+    }
+    .subtitle {
+        margin-top: 37px;
+        font: 400 12px Gilroy-Medium, sans-serif;
+    }
+    .hero-background {
+        height: 100%;
+    }
+    .image-container {
+        margin-top: -5px;
+        min-height: 240px;
+        padding: 0px 0px;
+    }
+    .play-svg {
+        transform: scale(0.8);
+    }
+    .div-2 {
+        font: 600 15px / 20px Montserrat, sans-serif;
+        padding: 6px;
+    }
+    .commercial-ad {
+        padding: 35px 0px;
+    }
+    .div-3 {
+        font: 100 15px / 24px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+        margin-top: 18px;
+
+    }
+    .div-4 {
+        margin-top: 24px;
+        padding: 12px 20px;
+    }
+    .div-6 {
+        font: 900 15px / 165% Montserrat, sans-serif;
+    }
+    .div-7 {
+        font: 600 10px Gilroy-Bold, sans-serif;
+        line-height: 18.09px;
+    }
+    .img {
+        aspect-ratio: 1.14;
+        object-fit: auto;
+        object-position: center;
+        width: 39px;
+    }
+    .div-4 {
+        margin-top: 24px;
+        gap: 8px;
+        padding: 13px 25px;
+    }
+    .inv-img {
+        width: 28%;
+        margin-top: 0;
+    }
+    .logo-svg svg {
+        transform: scale(2);
+    }
+    .inv-div-3 {
+        margin-top: 0;
+    }
+    .inv-div-4 {
+        margin-top: 15px;
+        font-size: 28px;
+    }
+    .div-8 {
+        font: 700 14px / 18px Montserrat, sans-serif;
+    }
+    .main-heading {
+        font: 700 20px / 16px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    .highlight-text-div {
+        font: 400 20px / 34px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    .highlight-text {
+        font: 600 20px / 10px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    .subheading {
+        color: #fff;
+        text-align: center;
+        margin-top: 18px;
+        font: 500 15px Gilroy-SemiBold, sans-serif;
+        letter-spacing: .4px;
+    }
+    .feature-icon {
+        width: 28px;
+    }
+    .feature-title {
+        gap: 5px;
+        font-size: 26px;
+    }
+    .feature-description {
+        margin: 24px 0 0 21px;
+        font: 400 18px / 30px Gilroy-Medium, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    .headline1 {
+        font: 26px / 37px Gilroy-SemiBold, -apple-system, Roboto, Helvetica, sans-serif;
+        width: 450px;
+        font-weight: 600;
+        text-align: center;
+        margin: auto;
+    }
+    .headline {
+        max-width: 100%;
+        font-size: 25px;
+        line-height: 48px;
+    }
+    .subheadline {
+        margin-top: 30px;
+        font: 600 15px / 0% Gilroy-SemiBold, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+    .text-item {
+        font-size: 14px;
+        line-height: 100%;
+
+    }
+    .text-item-large {
+        font-size: 14px;
+        margin-top: 3px;
+        max-width: 69%;
+        line-height: 20px;
+
+    }
+    .image-section {
+        min-height: 343px;
+        margin-top: 14px;
+        padding: 80px 60px;
+    }
+    .business-stats {
+        padding: 0 0px;
+    }
+    .background-image {
+        position: absolute;
+        inset: 0;
+        height: 90%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+    
