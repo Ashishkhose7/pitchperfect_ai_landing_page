@@ -341,5 +341,11 @@
         font: 600 8px Gilroy-Bold, sans-serif;
         line-height: 16.09px;
     }
+    .img {
+        aspect-ratio: 1.14;
+        object-fit: auto;
+        object-position: center;
+        width: 28px;
+    }
 }
     
