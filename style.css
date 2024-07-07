@@ -620,8 +620,12 @@
     line-height: 54px;
   }
 }
+.text-light{
+  font: 700 20px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+
+}
 .highlight-text-div{
-  font: 400 45px/35px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+  font: 700 45px/55px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
 
 }
 

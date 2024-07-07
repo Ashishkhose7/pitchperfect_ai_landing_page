@@ -114,11 +114,14 @@
     }
     .main-heading {
       color: #fff;
-      font: 700 30px / 40px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+      font: 700 28px / 40px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+      text-align: center;
+      margin-bottom: 0;
     }
     .highlight-text-div {
-      font: 400 30px / 35px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
-  }
+      font: 400 28px / 35px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+      text-align: center;
+    }
     .highlight-text {
       color: #ff5811;
       text-align: center;

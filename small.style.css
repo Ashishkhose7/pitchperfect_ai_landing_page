@@ -100,7 +100,7 @@
         font: 700 14px / 18px Montserrat, sans-serif;
     }
     .main-heading {
-        font: 700 20px / 16px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+        font: 700 20px / 30px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
     }
     .highlight-text-div {
         font: 400 20px / 34px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
@@ -233,15 +233,16 @@
     .div-4 {
         margin-top: 20px;
         gap: 5px;
-        padding: 0;
+        padding: 13px;
     }
     .review-column-2 {
         margin-left: 0px;
     }
     .main-heading {
-        font: 700 20px / 28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+        font: 700 20px / 30px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
         text-align: center;
         margin-bottom: 0px;
+        text-align: center;
     }
     .highlight-text-div {
         font: 400 20px / 28px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
