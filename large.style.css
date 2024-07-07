@@ -1,146 +1,135 @@
 @media (max-width: 1024px) {
-    .hero-background {
-      position: absolute;
-      inset: 0;
-      height: 85%;
-      width: 100%;
-      object-fit: fill;
-      object-position: center;
-      background: url(./images/banner.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: top;
-    }
-    .highlight-bar{
-      font-size: 28px;
-      margin-top: 32px;
-    }
-    .main-title1{
-      color: #fff;
-      text-align: center;
-      margin-top: 36px;
-      font: 900 41px / 43px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
-      word-spacing: -6px;
-    }
-    .main-title {
-      color: #ff5811;
-      text-align: center;
-      text-decoration-line: underline;
-      margin-top: 54px;
-      font: 900 41px / 50px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
-      font-style: italic;
+  .hero-background {
+    position: absolute;
+    inset: 0;
+    height: 85%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+    background: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
   }
-    .subtitle1 {
-      color: #fff;
-      text-align: center;
-      margin-top: 18px;
-      font: 400 18px Gilroy-Medium, sans-serif;
-    }
-    .hero-content {
-      position: relative;
-      z-index: 10;
-      display: flex;
-      /* width: 774px; */
-      max-width: 80%;
-      flex-direction: column;
-      align-items: center;
+  .highlight-bar{
+    font-size: 26px;
+    margin-top: 32px;
   }
-    .play-svg {
-      z-index: 1;
-      position: absolute;
-      top: 35%;
-    }
-    .hero-section {
-      display: flex;
-      flex-direction: column;
-      background: #fff;
-      overflow: hidden;
-      position: relative;
-      min-height: 0;
-      align-items: center;
-      padding: 38px 21px 0;
-      overflow: hidden;
-    }
-    .div-2 {
-      border-radius: 8px;
-      background-color: #ffdb5e;
-      color: #ff5811;
-      justify-content: center;
-      padding: 2px;
-      font: 600 19px / 28px Montserrat, sans-serif;
-    }
-    .div-3 {
-      /* color: #ffee58; */
-      text-align: center;
-      align-self: center;
-      margin: auto;
-      margin-top: 13px;
-      letter-spacing: 0px;
-      font: 100 16px / 20px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
-    }
-    .div-6 {
-      color: #fff;
-      font: 900 18px / 165% Montserrat, sans-serif;
-    }
-    .div-4 {
-      border-radius: 15px;
-      background-color: #ff5811;
-      display: flex;
-      margin: auto;
-      margin-top: 16px;
-      align-items: start;
-      gap: 15px;
-      padding: 20px 30px;
-    }
-    .div-7 {
-      color: #0e072d;
-      text-align: start;
-      text-transform: uppercase;
-      font: 400 13px Gilroy-Bold, sans-serif;
-      font-weight: bold;
-      line-height: 17.09px;
-    }
-    .inv-div-4 {
-      font-family: Gilroy-Bold, sans-serif;
-      margin-top: 5px;
-      font-size: 32px;
-    }
-    .div-8 {
-      color: #fff;
-      /* text-transform: uppercase; */
-      align-self: center;
-      margin-top: 11px;
-      font: 700 12px / 23px Montserrat, sans-serif;
-    }
-    .main-heading {
-      color: #fff;
-      font: 700 28px / 40px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
-      text-align: center;
-      margin-bottom: 0;
-    }
-    .text-light{
-      font: 700 28px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
-    
-    }
-    .highlight-text-div {
-      font: 400 28px / 35px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
-      text-align: center;
-    }
-    .highlight-text {
-      color: #ff5811;
-      text-align: center;
-      /* text-decoration: underline; */
-      /* margin-top: -13px; */
-      border-bottom: 2px solid #FF5811;
-      font: 600 30px / 10px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
-    }
-    .subheading {
-      color: #fff;
-      text-align: center;
-      margin-top: 26px;
-      font: 500 22px Gilroy-SemiBold, sans-serif;
-      letter-spacing: .4px;
-    }
+  .image-container {
+    min-height: 480px;
+}
+  .main-title1{
+    text-align: center;
+    margin-top: 36px;
+    font: 900 41px / 43px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+    word-spacing: -6px;
+  }
+  .main-title {
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 54px;
+    font: 900 41px / 50px Gilroy-Heavy, -apple-system, Roboto, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  .subtitle1 {
+    text-align: center;
+    margin-top: 18px;
+    font: 400 18px Gilroy-Medium, sans-serif;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    max-width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .play-svg {
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+  }
+  .play-svg svg{
+    height: 70px;
+    width: 70px;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    min-height: 0;
+    align-items: center;
+    padding: 38px 21px 0;
+    overflow: hidden;
+  }
+  .div-2 {
+    border-radius: 8px;
+    justify-content: center;
+    padding: 2px;
+    font: 600 19px / 28px Montserrat, sans-serif;
+  }
+  .div-3 {
+    /* color: #ffee58; */
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 13px;
+    letter-spacing: 0px;
+    font: 100 16px / 20px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .div-6 {
+    font: 900 18px / 165% Montserrat, sans-serif;
+  }
+  .div-4 {
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 16px;
+    align-items: start;
+    gap: 15px;
+    padding: 20px 30px;
+  }
+  .div-7 {
+    text-align: start;
+    text-transform: uppercase;
+    font: 400 13px Gilroy-Bold, sans-serif;
+    font-weight: bold;
+    line-height: 17.09px;
+  }
+  .inv-div-4 {
+    font-family: Gilroy-Bold, sans-serif;
+    margin-top: 5px;
+    font-size: 32px;
+  }
+  .div-8 {
+    align-self: center;
+    margin-top: 11px;
+    font: 700 12px / 23px Montserrat, sans-serif;
+  }
+  .main-heading {
+    font: 700 28px / 40px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .text-light{
+    font: 700 28px/28px Gilroy-ExtraBold, -apple-system, Roboto, Helvetica, sans-serif;
+  
+  }
+  .highlight-text-div {
+    font: 400 28px / 35px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .highlight-text {
+    text-align: center;
+    font: 600 30px / 10px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .subheading {
+    text-align: center;
+    margin-top: 26px;
+    font: 500 22px Gilroy-SemiBold, sans-serif;
+    letter-spacing: .4px;
+  }
   .headline1 {
     font: 40px / 46px Gilroy-SemiBold, -apple-system, Roboto, Helvetica, sans-serif;
     width: 700px;
@@ -161,15 +150,9 @@
   
 @media (max-width: 991px) {
     .commercial-ad {
-        border: 1px solid #221E3A;
-        /* width: 80%; */
-        background: #221E3A;
         gap: 0px;
         border-radius: 34px;
-        color: #fff;
         padding: 60px 0px;
-        display: flex;
-        overflow: hidden;
     }
       .inv-column {
         width: auto;
@@ -184,21 +167,15 @@
       padding-right: 0;
     }
     .div-2 {
-      border-radius: 8px;
-      background-color: #ffdb5e;
-      color: #ff5811;
       justify-content: center;
       padding: 12px;
       font: 600 25px / 28px Montserrat, sans-serif;
     }
     .div-6 {
-      color: #fff;
       font: 900 27px / 165% Montserrat, sans-serif;
     }
     .div-7 {
-      color: #0e072d;
       text-align: start;
-      text-transform: uppercase;
       font: 400 20px Gilroy-Bold, sans-serif;
       font-weight: bold;
       line-height: 25.09px;
@@ -211,8 +188,6 @@
       text-align: center;
     }
     .div-8 {
-      color: #fff;
-      /* text-transform: uppercase; */
       align-self: center;
       margin-top: 11px;
       font: 700 16px / 40px Montserrat, sans-serif;
@@ -231,7 +206,6 @@
       margin: auto;
     }
     .div-3 {
-      /* color: #ffee58; */
       text-align: center;
       align-self: center;
       margin: auto;
@@ -240,8 +214,6 @@
       font: 100 28px / 38px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
     }
     .div-4 {
-      border-radius: 15px;
-      background-color: #ff5811;
       display: flex;
       margin: auto;
       margin-top: 40px;
@@ -270,8 +242,6 @@
       font-size: 36px;
     }
     .div-8 {
-      color: #fff;
-      /* text-transform: uppercase; */
       align-self: center;
       margin-top: 23px;
       font: 700 22px / 37px Montserrat, sans-serif;
@@ -288,8 +258,13 @@
       left: -27%;
       top: 50%;
       width: 100%;
-      /* height: 50%; */
       transform: scale(3);
+    }
+    .subtitle {
+      text-align: center;
+      text-decoration-line: underline;
+      margin-top: 51px;
+      font: 400 18px Gilroy-Medium, sans-serif;
     }
     .feature-box {
       max-width: 100%;
@@ -297,12 +272,11 @@
       padding: 50px 40px;
     }
     .feature-description {
-      color: #fff;
       text-align: center;
       align-self: start;
       margin: 54px 0 0 21px;
       font: 400 22px / 30px Gilroy-Medium, -apple-system, Roboto, Helvetica, sans-serif;
       letter-spacing: .5px;
     }
-    }
+  }
     
