@@ -1,13 +1,8 @@
+/* Responsiveness for screen size 1024 and less */
 @media (max-width: 1024px) {
   .hero-background {
-    position: absolute;
-    inset: 0;
     height: 85%;
     width: 100%;
-    object-fit: fill;
-    object-position: center;
-    background: url(./images/banner.png);
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: top;
   }
@@ -17,7 +12,7 @@
   }
   .image-container {
     min-height: 480px;
-}
+  }
   .main-title1{
     text-align: center;
     margin-top: 36px;
@@ -70,7 +65,6 @@
     font: 600 19px / 28px Montserrat, sans-serif;
   }
   .div-3 {
-    /* color: #ffee58; */
     text-align: center;
     align-self: center;
     margin: auto;
@@ -145,138 +139,138 @@
     flex-direction: column;
     margin: 0;
   }
-  
-  }
-  
+}
+
+/* Responsiveness for screen size 991 and less */
 @media (max-width: 991px) {
-    .commercial-ad {
-        gap: 0px;
-        border-radius: 34px;
-        padding: 60px 0px;
-    }
-      .inv-column {
-        width: auto;
-    }
-    .inv-div-2 {
-      flex-direction: none;
-      align-items: stretch;
-      gap: 20px;
-    }
-    .container{
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .div-2 {
-      justify-content: center;
-      padding: 12px;
-      font: 600 25px / 28px Montserrat, sans-serif;
-    }
-    .div-6 {
-      font: 900 27px / 165% Montserrat, sans-serif;
-    }
-    .div-7 {
-      text-align: start;
-      font: 400 20px Gilroy-Bold, sans-serif;
-      font-weight: bold;
-      line-height: 25.09px;
-    }
-    .inv-column-2 {
-      /* width: 70%; */
-    }
-    .ad-content {
-      flex: 90%;
-      text-align: center;
-    }
-    .div-8 {
-      align-self: center;
-      margin-top: 11px;
-      font: 700 16px / 40px Montserrat, sans-serif;
-    }
-    .sidediv .top {
-      display: none;
-    }
-    .sidediv .bottom {
-      display: none;
-    }
-    .logo-svg {
-      flex: 0%;
-    }
-    .sidediv {
-      flex: 0%;
-      margin: auto;
-    }
-    .div-3 {
-      text-align: center;
-      align-self: center;
-      margin: auto;
-      margin-top: 40px;
-      letter-spacing: 0px;
-      font: 100 28px / 38px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
-    }
-    .div-4 {
-      display: flex;
-      margin: auto;
-      margin-top: 40px;
-      align-items: start;
-      gap: 15px;
-      padding: 16px 20px;
-    }
-    .inv-img {
-      width: 50%;
-      margin: auto;
-      margin-top: 20px;
-    }
-    .book {
-      flex: 0%;
-      display: none;
-    }
-    .inv-img-2 {
-      aspect-ratio: 8.33;
-      object-fit: auto;
-      object-position: center;
-      width: 100%;
-    }
-    .inv-div-4 {
-      font-family: Gilroy-Bold, sans-serif;
-      margin-top: 5px;
-      font-size: 36px;
-    }
-    .div-8 {
-      align-self: center;
-      margin-top: 23px;
-      font: 700 22px / 37px Montserrat, sans-serif;
-    }
-    .agency-container {
-      padding: 53px 40px;
-    }
-    .logo-svg {
-      flex: 0%;
-      position: relative;
-    }
-    .logo-svg svg {
-      position: absolute;
-      left: -27%;
-      top: 50%;
-      width: 100%;
-      transform: scale(3);
-    }
-    .subtitle {
-      text-align: center;
-      text-decoration-line: underline;
-      margin-top: 51px;
-      font: 400 18px Gilroy-Medium, sans-serif;
-    }
-    .feature-box {
-      max-width: 100%;
-      margin-top: 30px;
-      padding: 50px 40px;
-    }
-    .feature-description {
-      text-align: center;
-      align-self: start;
-      margin: 54px 0 0 21px;
-      font: 400 22px / 30px Gilroy-Medium, -apple-system, Roboto, Helvetica, sans-serif;
-      letter-spacing: .5px;
-    }
+  .commercial-ad {
+      gap: 0px;
+      border-radius: 34px;
+      padding: 60px 0px;
   }
+    .inv-column {
+      width: auto;
+  }
+  .inv-div-2 {
+    flex-direction: none;
+    align-items: stretch;
+    gap: 20px;
+  }
+  .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .div-2 {
+    justify-content: center;
+    padding: 12px;
+    font: 600 25px / 28px Montserrat, sans-serif;
+  }
+  .div-6 {
+    font: 900 27px / 165% Montserrat, sans-serif;
+  }
+  .div-7 {
+    text-align: start;
+    font: 400 20px Gilroy-Bold, sans-serif;
+    font-weight: bold;
+    line-height: 25.09px;
+  }
+  .inv-column-2 {
+    /* width: 70%; */
+  }
+  .ad-content {
+    flex: 90%;
+    text-align: center;
+  }
+  .div-8 {
+    align-self: center;
+    margin-top: 11px;
+    font: 700 16px / 40px Montserrat, sans-serif;
+  }
+  .sidediv .top {
+    display: none;
+  }
+  .sidediv .bottom {
+    display: none;
+  }
+  .logo-svg {
+    flex: 0%;
+  }
+  .sidediv {
+    flex: 0%;
+    margin: auto;
+  }
+  .div-3 {
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    font: 100 28px / 38px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .div-4 {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    align-items: start;
+    gap: 15px;
+    padding: 16px 20px;
+  }
+  .inv-img {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .book {
+    flex: 0%;
+    display: none;
+  }
+  .inv-img-2 {
+    aspect-ratio: 8.33;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+  }
+  .inv-div-4 {
+    font-family: Gilroy-Bold, sans-serif;
+    margin-top: 5px;
+    font-size: 36px;
+  }
+  .div-8 {
+    align-self: center;
+    margin-top: 23px;
+    font: 700 22px / 37px Montserrat, sans-serif;
+  }
+  .agency-container {
+    padding: 53px 40px;
+  }
+  .logo-svg {
+    flex: 0%;
+    position: relative;
+  }
+  .logo-svg svg {
+    position: absolute;
+    left: -27%;
+    top: 50%;
+    width: 100%;
+    transform: scale(3);
+  }
+  .subtitle {
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 51px;
+    font: 400 18px Gilroy-Medium, sans-serif;
+  }
+  .feature-box {
+    max-width: 100%;
+    margin-top: 30px;
+    padding: 50px 40px;
+  }
+  .feature-description {
+    text-align: center;
+    align-self: start;
+    margin: 54px 0 0 21px;
+    font: 400 22px / 30px Gilroy-Medium, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: .5px;
+  }
+}
     
